@@ -61,6 +61,9 @@ header {
   border-radius: 5px;
   text-align: center;
 }
+.kartyak .kartya ul li {
+  list-style-type: square;
+}
 p {
   text-align: justify;
   font-size: 20px;
