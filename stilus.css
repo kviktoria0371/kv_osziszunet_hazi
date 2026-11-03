@@ -50,7 +50,7 @@ header {
 }
 .kartyak {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 20px;
 }
@@ -61,6 +61,23 @@ header {
   border-radius: 5px;
   text-align: center;
 }
+.fkartyak {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+.fkartyak .fkartya {
+  background-color: #7d7360;
+  color: #e4dac7;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+/*.fkartyak img {
+  max-width: 100% and height: auto;
+}*/
+
 .kartyak .kartya ul li {
   list-style-type: square;
 }
