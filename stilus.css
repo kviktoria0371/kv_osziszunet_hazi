@@ -1,11 +1,10 @@
 img {
-  max-width: 100% ;
+  max-width: 100%;
   border-radius: 10px;
   border: 3px solid rgb(245, 229, 131);
 }
 
 main {
-
   margin: 10px;
   padding: 20px;
   background-color: #e4dac7;
@@ -20,7 +19,8 @@ nav ul {
   gap: 5px;
   text-align: center;
 }
-nav ul li {text-align: center;
+nav ul li {
+  text-align: center;
 }
 ul li {
   list-style-type: none;
@@ -76,7 +76,6 @@ header {
   text-align: center;
 }
 .fkartyak .fkartya ul li {
-  
 }
 
 .kartyak .kartya ul li {
@@ -92,9 +91,20 @@ p {
   background-color: #e4dac7;
   padding: 6px;
   border-radius: 5px;
-
 }
 .kartyak .kartya a:hover {
   background-color: #90b57b;
   color: #000000;
+}
+
+@media screen and (max-width: 500px) {
+  .kartyak {
+    grid-template-columns: 1fr;
+  }
+  .fkartyak {
+    grid-template-columns: 1fr;
+  }
+  nav ul {
+    grid-template-columns: 1fr;
+  }
 }
